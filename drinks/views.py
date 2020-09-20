@@ -6,7 +6,7 @@ from django.shortcuts import render
 from django.views.generic import TemplateView
 
 class HomeView(TemplateView):
-    template_name = 'snacks-home.html' # Add a template
+    template_name = 'drinks-home.html' # Add a template
 
 class AboutView(TemplateView):
-    template_name = 'snacks-about.html'
+    template_name = 'drinks-prodact.html'
